@@ -1,1 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
+:root {}
+
+.default-input {
+  background-color: unset;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 30px;
+  width: 300px;
+}
+
+.submit-button, .other-button {
+  border-radius: 10px;
+  height: 30px;
+  width: 300px;
+  border: none;
+}
+
+.submit-button {
+  background-color: #03045e;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: #090cbb;
+  color: white;
+}
+
+.submit-button:active {
+  background-color: #0e75d4;
+  color: white;
+}
+
+.other-button {
+  background-color: white;
+  color: #03045e;
+}
+
+.other-button:hover {
+  background-color: darkgray;
+}
+
+.other-button:active {
+  background-color: rgb(126, 126, 126);
+}
+
+.titles-large {
+  font-size: xx-large;
+  padding-block: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 300px;
+  text-align: center;
+  list-style: none;
+}
+
+.footer>p {
+  font-size: small !important;
+  align-self: flex-end;
+}
+
+.footer>.lang-container>select {
+  background-color: unset;
+  color: white;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.lang-container {
+  margin-top: 10px;
+  align-self: flex-start;
+}

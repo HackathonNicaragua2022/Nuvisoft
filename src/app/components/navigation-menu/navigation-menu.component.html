@@ -1,0 +1,18 @@
+<div
+  class="menu-container"
+  *ngIf="isShowing && isFitMenu == false; else fitMenu"
+>
+  <a href="/#/home">Inicio</a>
+  <a href="/#/administration">Administración</a>
+  <a href="/#/creator">Creador de trabajos</a>
+</div>
+
+<ng-template #fitMenu>
+  <div class="menu-container fit" *ngIf="isShowing">
+    <a href="">Perfil</a>
+    <a href="">item</a>
+    <a href="">item</a>
+    <a href="">item</a>
+    <a href="">item</a>
+  </div>
+</ng-template>
